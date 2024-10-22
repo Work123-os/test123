@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-size: 70px;
+}
+h3 {
+    font-size: 55px;
+}
+h4 {
+    font-size: 40px;
+}
+h5 {
+    font-size: 25px;
+}
+h6 {
+    font-size: 15px;
+}
+@media (max-width: 1060px) {
+    h1 {
+        font-size: 10vw;
+    } 
+    h2 {
+        font-size: 8vw;
+    }
+    h3 {
+        font-size: 6vw;
+    }
+    h4 {
+        font-size: 4vw;
+    }
+    h5 {
+        font-size: 3vw;
+    }
+    h6 {
+        font-size: 2vw;
+    }
+}
+p {
+    font-size: 1.2em;
+}
+div {
+    font-size: 1.2em;
+}
+ul, ol {
+    font-size: 1.2em;
+}
+@media (max-width: 1060px) {
+    p, div, ul, ol, li {
+        font-size: 3vw;
+    }
+}
+.Absatz1 {
+    margin: 20px 40px 0px 40px;
+    line-height: 1.5;
+}
+.Bildcon {
+    text-align: center;
+}
+.Bild1 {
+    width: 330px;
+    height: 250px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+.Bild1:hover {
+    transform: scale(0.85);
+}
+@media (max-width: 1060px) {
+    .Bild1 {
+        width: 50vw;
+        height: auto;
+    }
+}    
